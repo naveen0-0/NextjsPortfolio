@@ -23,7 +23,7 @@ export default function NavBar() {
         <Link href="/skills"><div onClick={() => setDropDownOpen(true)} className={style.navbarlink}>skills</div></Link>
         <Link href="/projects"><div onClick={() => setDropDownOpen(true)} className={style.navbarlink}>projects</div></Link>
         <Link href="/contact"><div onClick={() => setDropDownOpen(true)} className={style.navbarlink}>contact</div></Link>
-        <a href="../../pdfs/naveenResume.pdf" className={style.resume} target="_blank" download={true}>Resume</a>
+        <a href="/pdfs/resume.pdf" className={style.resume} target="_blank" download={true}>Resume</a>
       </div>
 
       <div className={style.burger} onClick={ToggleDropDown}>
