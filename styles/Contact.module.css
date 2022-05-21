@@ -1,0 +1,94 @@
+/* @ Contact Component  */
+.formTitle {
+  font-size: 32px;
+  text-align: center;
+  padding: 25px 25px 10px;
+  font-weight: bold;
+  margin: 0px 0px 20px;
+  color: whitesmoke;
+  font-family: "Fira Code";
+}
+
+.form {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  height: 450px;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.name,.email{
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Fira Code', monospace;
+  background-color: #111;
+  color: whitesmoke;
+}
+
+.subject,.message{
+  outline: none;
+  background-color: #111;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Fira Code', monospace;
+  resize: none;
+  color: whitesmoke;
+}
+
+.formsubmit {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  padding: 8px 10px;
+  background: linear-gradient(to right, cornflowerblue, royalblue);
+  box-shadow: 3px 3px 4px #222;
+  border-radius: 50px;
+  color: white;
+  font-family: 'Fira Code', monospace;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formsubmit:active {
+  box-shadow: none;
+}
+
+.formsubmit:hover {
+  background: linear-gradient(to left, cornflowerblue, royalblue);
+}
+
+.mediaLinks {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.mediaLinks img {
+  width: 30px;
+}
+
+.spinner{
+  width: 25px;
+}
+
+
+@media screen and (max-width:450px) {
+  .form {
+    width: 95%;
+  }
+}

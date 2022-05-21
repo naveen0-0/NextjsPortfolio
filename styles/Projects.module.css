@@ -1,0 +1,18 @@
+/* @ Projects */
+.projectsTitle {
+  font-size: 32px;
+  margin: 0px 0px 20px;
+  padding: 25px 25px 10px;
+  text-align: center;
+  font-weight: bold;
+  color: whitesmoke;
+  font-family: "Fira Code";
+}
+
+.projectsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 85%;
+  margin: 0px auto 10px;
+  gap: 30px;
+}

@@ -1,0 +1,17 @@
+.skillTitle {
+  font-size: 32px;
+  margin: 0px 0px 20px;
+  text-align: center;
+  padding: 25px 25px 10px;
+  font-weight: bold;
+  color: whitesmoke;
+  font-family: "Fira Code";
+}
+
+.skillsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 80%;
+  margin: 0px auto 10px;
+  gap: 20px;
+}
