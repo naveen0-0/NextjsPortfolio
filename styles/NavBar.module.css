@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
 .navbar {
   background-color: #191d1d;
@@ -82,7 +83,7 @@
   text-decoration: none;
   color: whitesmoke;
   font-size: 14px;
-  font-family: "Fira Code";
+  font-family: 'Fira Code', monospace;
   cursor: pointer;
 }
 
